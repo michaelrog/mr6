@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><![endif]-->
+	<!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Michael Rog | development, creative direction, problem-solving</title>
+	<meta name="author" content="Michael Rog">
+	<link rel="stylesheet" href="/assets/styles/boilerplate.css" />
+	<link rel="stylesheet" href="/assets/fonts/fontin_sans/stylesheet.css" rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/styles/v20111002.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<link rel="openid.server" href="http://id.michaelrog.com/michael/" />
+	<link rel="openid.delegate" href="http://id.michaelrog.com/michael/" />
+</head>
+<body>
+
+<div id="container">
+
+	<div id="message">
+
+		<p class="p-changetheworld">You're going to <br />change the world.</p>
+
+		<p><strong>But your audience is really busy</strong>. And easily distracted.<br /> And <span class="s-whoareyou">who are you, and why should they care?</span></p>
+
+		<p><strong>I can help you <span class="s-tellyourstory">tell your story</span></strong>, <span class="s-refineyourimage">refine your brand</span>, and turn strangers into <span class="s-turnstrangers">customers</span>, <span class="s-turnstrangers">supporters</span>, <span class="s-turnstrangers">investors</span>, and <span class="s-turnstrangers">advocates</span>.</p>
+
+	</div>
+
+	<footer>
+
+		<p class="contact"><a id="mailme" href="mailto:michael-AT-michaelrog-DOT-com">michael &#64; michaelrog &#46; com</a> &bull; 713.581.4764</p>
+
+		<p><a href="http://twitter.com/michaelrog" class="twitter-follow-button" data-show-count="false">Follow @michaelrog</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
+
+		<p>Michael Rog is a freelance web developer, designer, consultant and theatre enthusiast, recently graduated with degrees in Psychology and Cognitive Science from Rice University. He enjoys long walks on the beach, green tea ice cream, and helping start-ups, non-profits, and other fun folks bring great messages and products to market.</p>
+
+	</footer>
+
+</div> <!-- / #container -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
+<script language="JavaScript">
+	$(function(){
+		var str = new Array("mail","","to","",":","","michael","","@","","michael","rog","",".","","com");
+		var str = str.join("");
+		$("#mailme").attr("href",str).html(str.substring(7));
+		$("#message")
+				.mouseover(function(){
+					$(".p-changetheworld").html( $(".p-changetheworld").html().slice(0, -1)+"!" );
+				})
+				.mouseout(function(){
+					$(".p-changetheworld").html( $(".p-changetheworld").html().slice(0, -1)+"." );
+				});
+	});
+	var _gaq = [['_setAccount', 'UA-8709696-1'], ['_trackPageview']];
+	(function(d, t) {
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.async = true; g.src = '//www.google-analytics.com/ga.js'; s.parentNode.insertBefore(g, s);
+	})(document, 'script');
+</script>
+
+</body>
+</html>

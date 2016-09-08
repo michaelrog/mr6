@@ -1,0 +1,82 @@
+p {
+    margin: 0 0 1em;
+}
+
+#message {
+    font-family: 'FontinSansRegular';
+    font-size: 24px;
+    line-height: 1.5;
+    color: #666;
+}
+
+strong {
+    font-family: 'FontinSansBold';
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+}
+
+#container {
+    margin: 40px auto;
+    width: 655px ;
+    border-top: 2px solid #eee;
+    padding-top: 30px;
+}
+
+
+.p-changetheworld {
+    color: #b30;
+    font-family: 'FontinSansBold';
+    font-size: 60px;
+    font-variant: normal;
+    line-height: 1.1;
+    margin-bottom: .5em;
+    position: relative;
+    left: 0px;
+}
+.s-tellyourstory {
+    color: #b30;
+}
+.s-refineyourimage {
+    color: #666;
+}
+.s-turnstrangers {
+    font-family: 'FontinSansItalic';
+    color: #000;
+}
+.s-whoareyou {
+    font-family: 'FontinSansItalic';
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 35px;
+    border-top: 1px solid #ccc;
+    font-family: Helvetica, Arial, serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #bbb;
+}
+
+footer:hover { color: #666;}
+
+p.contact {
+    font-weight: bold;
+}
+
+a {
+    color: #a20;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+*, a {
+    -webkit-transition:color 0.7s ease;
+    -moz-transition:color 0.7s ease;
+    -o-transition:color 0.7s ease;
+    transition:color 0.7s ease;
+}
