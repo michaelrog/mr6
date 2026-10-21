@@ -1,0 +1,17 @@
+{
+  "name": "com-michaelrog-v6",
+  "compatibility_date": "2026-10-21",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "v6.michaelrog.com",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
+}
